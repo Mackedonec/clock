@@ -27,5 +27,5 @@ setInterval(function getLocalDate() {
   let weekDay = daysOfWeek[dayOfWeek];
   let timePart = `${hours}:${minutes}:${seconds}`;
 
-  clock.innerHTML = `${datePart}, ${weekDay} ${timePart}`;
+  clock.innerHTML = `${datePart} ${weekDay} ${timePart}`;
 }, 1000);

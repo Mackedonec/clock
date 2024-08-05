@@ -7,9 +7,8 @@ body {
     justify-content: center;
     align-items: center;
     .clock {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      width: 100%;
+      max-width: 965px;
       font-weight: bolder;
       font-size: 72px;
       color: #ffffff;
